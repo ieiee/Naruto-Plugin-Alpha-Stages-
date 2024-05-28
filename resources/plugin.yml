@@ -1,0 +1,89 @@
+name: MyFirstPlugin
+version: '${project.version}'
+main: org.minecraft.minecraft.MyFirstPlugin
+api-version: '1.20'
+commands:
+  die:
+    description: An easy way to kill yourself
+    usage: /die
+
+  thousandYearsOfDeath:
+    description: A small for a sweet friend
+    usage: /thousandYearsOfDeath
+
+  login:
+    description: Login using /login <password>
+    usage: /login
+
+  register:
+    description: Register a new account using /register <password>
+    usage: /register
+
+  setWarp:
+    description: Set a warp location using /setWarp <name>
+    usage: /setWarp
+    aliases: /setwarp
+
+  delWarp:
+    description: Deletes an already existing war using /delWarp <name>
+    usage: /delWarp
+    aliases: /delwarp
+
+  warp:
+    description: warp to a registered warp on the server using /warp <name>
+    usage: /warp
+
+  home:
+    description: teleports you to your home set location
+    usage: /home
+
+  setSpawn:
+    description: sets spawn location for the server
+    usage: /setSpawn
+    aliases: /setspawn
+
+  spawn:
+    description: teleports to the spawn location(if any)
+    usage: /spawn
+
+  removeSpawn:
+    description: removes a already existing spawn location
+    usage: /removeSpawn
+    aliases: /removespawn
+
+  dback:
+    description: teleports to your last death coordinates using /dback
+    usage: /dback
+
+  tpt:
+    description: sends teleport request to a certain player mentioned like /tpt <playerName>
+    usage: /tpt
+
+  tpa:
+    description: accepts a teleport request from a player by /tpa <playerName>
+    usage: /tpa
+
+  tpr:
+    description: rejects a teleport request from ma player by /tpr <playerName>
+    usage: /tpr
+
+  tpc:
+    description: cancels a teleport request sender by a player itself by /tpc <playerName>
+    usage: /tpc
+
+  bank:
+    description: access to bank gui
+    usage: /bank
+
+  balance:
+    description: gives balance information
+    usage: /balance
+
+  reAnimation:
+    description: brings dead to life
+    usage: /reAnimation
+    aliases: /reanimate
+
+  profile:
+    description: shows profile of the player you want
+    usage: /profile

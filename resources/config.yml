@@ -1,0 +1,10 @@
+
+
+bot_token: "BOT_TOKEN HERE"
+# place your discord bot token here
+
+text_channel_id: "TEXT_CHANNEL_ID HERE"
+# place your discord server text channel id here
+
+player_join_title_message: true
+# enabled for custom player join message
